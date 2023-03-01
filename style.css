@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    }
+    header{
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+    header nav .left a{
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    }
+    header nav .left a:hover{
+    color: var(--primary);
+    }
+    header nav {
+    padding: 2rem 0;
+    }
+    header nav .logo{
+    margin-right: 3rem;
+    }
